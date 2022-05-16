@@ -1083,6 +1083,7 @@ char* sinsp_filter_check::rawval_to_string(uint8_t* rawval,
 					 sizeof(m_getpropertystr_storage),
 					 "%.1lf", *(double*)rawval);
 			return m_getpropertystr_storage;
+
 		case PT_IPNET:
 			snprintf(m_getpropertystr_storage,
 				 sizeof(m_getpropertystr_storage),
